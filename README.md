@@ -47,25 +47,24 @@ The application allows users to create and manage tasks with details such as tit
 
 ## 📂 Project Structure
 
-```text
-todo-list-mern/
-│
-├── project_frontend/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   └── ...
-│
-├── project_backend/
-│   ├── controller/
-│   ├── routes/
-│   ├── model/
-│   ├── index.js
-│   ├── package.json
-│   └── ...
-│
-├── .gitignore
-└── README.md
+    todo-list-mern/
+    │
+    ├── project_frontend/
+    │   ├── src/
+    │   ├── public/
+    │   ├── package.json
+    │   └── ...
+    │
+    ├── project_backend/
+    │   ├── controller/
+    │   ├── routes/
+    │   ├── model/
+    │   ├── index.js
+    │   ├── package.json
+    │   └── ...
+    │
+    ├── .gitignore
+    └── README.md
 
 ---
 
