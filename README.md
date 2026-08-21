@@ -1,35 +1,53 @@
-📝 Todo List MERN
+# 📝 Todo List MERN
 
-A simple To-Do List web application developed as part of my MERN Stack with AI Internship at iROHUB Infotech Pvt. Ltd.
+A simple To-Do List web application developed as part of my **MERN Stack with AI Internship at iROHUB Infotech Pvt. Ltd.**
 
-The project provides a basic task management interface where users can create and manage tasks with details such as title, description, due date, priority, and status.
+The application allows users to create and manage tasks with details such as title, description, due date, priority, and status.
 
-🚀 Features
-Create and manage tasks
-Task title and description
-Set a due date
-Set task priority
-Track task status
-REST API development
-MongoDB database for storing task data
-Responsive frontend interface
-API testing using Postman
-🛠️ Technologies Used
-Frontend
-JavaScript
-React.js
-Tailwind CSS
-Vite
-Backend
-Node.js
-Express.js
-MongoDB
-Mongoose
-Tools
-Postman
-Git & GitHub
-Visual Studio Code
-📂 Project Structure
+---
+
+## 🚀 Features
+
+- Create and manage tasks
+- Add task title and description
+- Set a due date
+- Set task priority
+- Track task status
+- REST API development
+- MongoDB database for storing task data
+- Responsive frontend interface
+- API testing using Postman
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- JavaScript
+- React.js
+- Tailwind CSS
+- Vite
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Tools
+
+- Postman
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## 📂 Project Structure
+
+```text
 todo-list-mern/
 │
 ├── project_frontend/
@@ -48,35 +66,37 @@ todo-list-mern/
 │
 ├── .gitignore
 └── README.md
-🔧 Main Task Fields
 
-Each task contains:
+---
 
-Title
-Description
-Due Date
-Priority
-Status
-🖥️ Frontend
+## 📋 Task Fields
 
-The frontend is developed using React.js and Tailwind CSS, with React Router used for navigation between pages.
+Each task contains the following fields:
 
-⚙️ Backend
+- **Title** – Name of the task
+- **Description** – Details about the task
+- **Due Date** – Deadline for completing the task
+- **Priority** – Priority level of the task
+- **Status** – Current status of the task
 
-The backend is built using Node.js and Express.js. REST APIs are used for handling task-related operations, with MongoDB used as the database.
+---
 
-🧪 API Testing
+## 🖥️ Frontend
 
-The backend APIs were tested using Postman during development.
+The frontend is developed using **React.js**, **Tailwind CSS**, and **Vite**.
 
-📚 Learning Outcomes
+React Router is used for navigation between different pages of the application.
 
-Through this project, I gained practical exposure to:
+---
 
-JavaScript and React development
-Creating REST APIs
-Working with MongoDB and Mongoose
-Testing APIs using Postman
-Styling web applications using Tailwind CSS
-Understanding the basic structure of a MERN stack application
-Using Git and GitHub for project management
+## ⚙️ Backend
+
+The backend is developed using **Node.js** and **Express.js**.
+
+REST APIs are used to handle task-related operations, while **MongoDB** and **Mongoose** are used for storing and managing task data.
+
+---
+
+## 🧪 API Testing
+
+The backend APIs were tested using **Postman** during development.
